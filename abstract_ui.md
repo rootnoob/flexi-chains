@@ -5,13 +5,15 @@
 | ''                    |                            |                     |                     | /mullvad/openVPN/USA.conf     |                 |
 
 
-**Hop**  
+<h4>Hop</h4>
+
 A hop is a link in the chain. Hops are un(limited - by latency and resource constraints). You configure each hope.
 
-**Hop Setting**  
+<h4>Hop Setting</h4>
+
 default=STATIC  
-STATIC: The connection is unchanged after creating the chain.
-session($time,$min,$max)  
+**STATIC**: The connection is unchanged after creating the chain.
+**session($time,$min,$max)**  
 $min is required.  
 Setting $max means the session will last a duration=random($min,$max).  
 $time is the unit seconds/mins/hours  
