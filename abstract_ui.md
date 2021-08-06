@@ -1,12 +1,12 @@
-|          Link<br>Info  |   | 2                          | 3                   | 4                   | 5                             | 6           | 7                           |
-|------------------------|---|----------------------------|---------------------|---------------------|-------------------------------|-------------|-----------------------------|
-| tunnel/guard           |   | tunnel                     | tunnel              | tunnel              | tunnel                        | guard       | tunnel                      |
-| guardVM                |   |                            |                     |                     |                               | mirage-disp |                             |
-| tunnelVM(s)            |   | vpn-disp(*)                | proxy-disp(*)       | proxy-disp(*)       | vpn-disp(*)                   |             | sys-whonix(a),proxy-disp(*) |
-| Tunnel Setting         |   | STATIC                     | session(mins,15,20) | session(mins,20,30) | switch(mins,10,20)            |             | STATIC                      |
-| Config List            |   |                            |                     |                     |                               |             |                             |
-| a                      |   | /mullvad/wireguard/eu.conf | /x/socks5/list.conf | /x/https/list.conf  | /nordvpn/wireguard/world.conf |             | TOR                         |
-| b                      |   |                            |                     |                     | /mullvad/openVPN/USA.conf     |             | /resi/https/world.conf      |
+|          Link<br>Info  | 1            | 2                          | 3                   | 4                   | 5                             | 6           | 7                           |
+|------------------------|--------------|----------------------------|---------------------|---------------------|-------------------------------|-------------|-----------------------------|
+| tunnel/guard           | guard        | tunnel                     | tunnel              | tunnel              | tunnel                        | guard       | tunnel                      |
+| guardVM                | sys-firewall |                            |                     |                     |                               | mirage-disp |                             |
+| tunnelVM(s)            |              | vpn-disp(*)                | proxy-disp(*)       | proxy-disp(*)       | vpn-disp(*)                   |             | sys-whonix(a),proxy-disp(*) |
+| Tunnel Setting         |              | STATIC                     | session(mins,15,20) | session(mins,20,30) | switch(mins,10,20)            |             | STATIC                      |
+| Config List            |              |                            |                     |                     |                               |             |                             |
+| a                      |              | /mullvad/wireguard/eu.conf | /x/socks5/list.conf | /x/https/list.conf  | /nordvpn/wireguard/world.conf |             | TOR                         |
+| b                      |              |                            |                     |                     | /mullvad/openVPN/USA.conf     |             | /resi/https/world.conf      |
 
 
 <h3>Link</h3>
