@@ -5,11 +5,11 @@
 | ''                    |                            |                     |                     | /mullvad/openVPN/USA.conf     |                 |
 
 
-<h4>Hop</h4>
+<h3>Hop</h3>
 
 A hop is a link in the chain. Hops are un(limited - by latency and resource constraints). You configure each hope.
 
-<h4>Hop Setting</h4>
+<h3>Hop Setting</h3>
 
 default=STATIC  
 **STATIC**: The connection is unchanged after creating the chain.
