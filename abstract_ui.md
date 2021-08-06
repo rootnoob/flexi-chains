@@ -8,6 +8,11 @@
 | a                      |              | /mullvad/wireguard/eu.conf | /x/socks5/list.conf | /x/https/list.conf  | /nordvpn/wireguard/world.conf |             | TOR                         |
 | b                      |              |                            |                     |                     | /mullvad/openVPN/USA.conf     |             | /resi/https/world.conf      |
 
+<h3>Guard</h3>
+
+A guard is a firewall. The guard is automatically configured
+
+
 
 <h3>Link</h3>
 
