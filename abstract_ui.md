@@ -39,5 +39,5 @@ Choose random entry from a random .conf file provided (from the config list for 
 
 
 Dynamic Chains (Modify-on-the-fly):  
-Ability to manually force VM re-initialisation, and select the specific config that will be loaded. Ability to add more configs manually and refresh. Ability to manually connect any VM to any point in the chain.
+Ability to manually force VM re-initialisation, and select the specific config that will be loaded. Ability to add more configs manually and refresh. Ability to manually connect any VM to any entry-link in the chain.
 
