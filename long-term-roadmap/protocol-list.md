@@ -1,7 +1,4 @@
-WIP
-<h2>Features</h2>
-
-<h3>Multiple Protocol Support</h3>
+<h3>Long-term planned supported protocol list</h3>
 
 OpenVPN    
 Wireguard    
