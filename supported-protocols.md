@@ -9,7 +9,7 @@ IKEv2
 IPSEC    
 SOCKSv5 Proxy    
 HTTPS Proxy       
-TOR
+TOR  
 Proxychains
 
 
