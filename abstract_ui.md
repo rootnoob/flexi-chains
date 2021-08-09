@@ -31,6 +31,12 @@ $time is the unit seconds/mins/hours
 **switch($time,$min,$max)**
 
 
+**Config List**  
+Each config file must contain in a standardised format:
+The supported protocol type
+The standardised parameters for that protocol type
+
+
 
 Notes:  
 **Initialisation Process**  
