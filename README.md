@@ -1,2 +1,4 @@
 # flexi-chains
-Flexi Chains is a WIP multi-protocol tunnel chaining, highly configurable &amp; easy-to-use, application for QubesOS.
+**Flexi Chains** is a* **multi-protocol tunnel-chaining**, configurable, easy-to-use, **application for QubesOS**.  
+
+*(Work in Progress)
