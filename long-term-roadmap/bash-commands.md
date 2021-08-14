@@ -15,6 +15,11 @@ Sets link to guard or tunnel.
     set-mode $static/session,units,x,y/rswitch,units,x,y        #sets link mode  
     firewall                                                    #opens firewall conig file in nano  
     set-config-vm $number                                       #sets VM for config number $number  
+    
+**reboot-link** $number  
+#reboots link number $number  
+
+
 
 
     
