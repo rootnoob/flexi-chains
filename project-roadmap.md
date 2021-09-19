@@ -1,10 +1,10 @@
 WiP
 
-| Release | Feature                         |
-|---------|---------------------------------|
-| pre     | fc-core-protocol                |
-| pre     | net-protocol support via glider |
-| alpha   | bash-app                        |
-| beta    | barebones-gui                   |
-| FITF    | plugins-API                     |
-| EFITF   | OS-layer-API                    |
+| Release | Feature                         | Status |
+|---------|---------------------------------|--------|
+| pre     | fc-core-protocol                | TBC    |
+| pre     | net-protocol support via glider | TBC    |
+| alpha   | bash-app                        | TBC    |
+| beta    | barebones-gui                   | TBC    |
+| FITF    | plugins-API                     | TBC    |
+| EFITF   | OS-layer-API                    | TBC    |
