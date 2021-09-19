@@ -2,8 +2,8 @@ WiP
 
 | Release | Feature                         |
 |---------|---------------------------------|
-| base    | fc-core-protocol                |
-| base    | net-protocol support via glider |
+| pre     | fc-core-protocol                |
+| pre     | net-protocol support via glider |
 | alpha   | bash-app                        |
 | beta    | barebones-gui                   |
 | FITF    | plugins-API                     |
