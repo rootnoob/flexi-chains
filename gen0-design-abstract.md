@@ -13,6 +13,6 @@ The modules however could be further abstracted and adapted in the future to use
 </details>
 
 Think of the abstraction simply, like this:  
-[0 (application layer)] Flexi chains  
-[-1  (OS layer)] Qubes
-
+| [0]  | (application layer) | Flexi chains |
+|------|---------------------|--------------|
+| [-1] | (OS layer)          | Qubes        |
