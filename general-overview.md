@@ -12,7 +12,7 @@ A guard is intended to act as a dedicated guard - (e.g. firewall, IPS/IDS).
 A tunnel is intended to tunnel/forward your traffic.  
 FLexi-chains enables you to chain together an unlimited^ number of links - of guards and/or tunnels. 
 Flexi-chains enables you to chain together any^^ tunnel protocol (openvpn, socks proxy, TOR, etc), in any order^^. 
-Althought there is much overlap, to simplify things - you should think of **guard**s and **tunnel**s as entirely different from one-another.  
+Although there is much overlap, to simplify things - you should think of **guard**s and **tunnel**s as entirely different from one-another.  
 
 Think of it like this:  
 Link (1,2,3...)  
