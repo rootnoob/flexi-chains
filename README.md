@@ -10,3 +10,5 @@ You may be interested to read:
 [Why is flex-chains needed](flexi-chains-purpose.md) & [Who is it for](who-uses-flexi-chains.md)
 
 *(Work in Progress)
+
+[VERY IMPORTANT LEGAL DISCLAIMER](very-important-legal-disclaimer.md)
