@@ -20,5 +20,8 @@ Flexi-chains enables you to chain together any^^ tunnel protocol (openvpn, socks
 
 
 
-^ Limited only by your system resources, and practical latency/bandwidth constraints.  
-^^ Except where there are TCP/UDP conflicts - see: [Understanding TCP & UDP - and flexi-chains limits]()
+^:  
+Limited only by your system resources, and practical latency/bandwidth constraints.  
+^^:  
+Subject to availability & compatability  
+Please also see: [Understanding TCP & UDP - and flexi-chains limits]()
