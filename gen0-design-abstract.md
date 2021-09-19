@@ -7,11 +7,12 @@ Instead of writing a dedicated interface for each protocol/program I intend to i
 
 
 To keep it simple as possible, I shall describe what flexi-chains really is, at it's core (it's 'modules').  
-
-Flexi-chains is built atop Qubes  
+<details>
+  <summary>Flexi-chains is built atop [Qubes](https://qubes-os.org)</summary> 
 The modules however could be further abstracted and adapted in the future to use a different compartmentalisation system - Qubes was chosen as it is open-source, has a strong community and is the most advanced that I can publicly build upon.  
+</details>
 
 Think of the abstraction simply, like this:  
-[0] Flexi chains  
-[-1 - OS layer] Qubes
+[0 (application layer)] Flexi chains  
+[-1  (OS layer)] Qubes
 
