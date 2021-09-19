@@ -14,12 +14,26 @@ FLexi-chains enables you to chain together an unlimited^ number of links - of gu
 Flexi-chains enables you to chain together any^^ tunnel protocol (openvpn, socks proxy, TOR, etc), in any order^^. 
 Althought there is much overlap, to simplify things - you should think of **guard**s and **tunnel**s as entirely different from one-another.  
 
-<h2>**Guard**s</h2>
+Think of it like this:  
+Link (1,2,3...)  
+**Guard** / **Tunnel**  
 
+<h2>Guard Links</h2>
 
-<h2>**Tunnel**s</h2>
+A **guard** link has a guardVM and 
+
+<details>
+<summary>How this works</summary>
  
+ Simply add the tag guardVM to any of your QubesVMs  
+ To add a description simply  
+</details>
 
+<h2>Tunnel Links</h2>
+ 
+<details>
+<summary></summary>
+</details>
 
 
 ^:  
