@@ -1,4 +1,4 @@
-WiP
+WiP - Pending finalisation of [Architecture Abstract](https://github.com/rootnoob/flexi-chains/blob/main/gen0-design-abstract.md)
 
 | Release | Feature                         | Status |
 |---------|---------------------------------|--------|
