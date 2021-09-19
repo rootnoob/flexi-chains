@@ -21,6 +21,6 @@ Why: improve speed, stability and remove dependency on external projects with re
 **plugins-API**  
 Why: this is a pivotal step to something approaching true anonymity. (e.g: super cool browser plugins :P)  
 
-**OS-layer-API**
+**OS-layer-API**  
 Why: so we can rinse the $ from SecureView (jks, it's so to reduce dependency on a single 'OS-layer' - but this is EFITF rc).
  
