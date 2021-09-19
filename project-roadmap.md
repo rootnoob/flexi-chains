@@ -6,6 +6,7 @@ WiP - Pending finalisation of [Architecture Abstract](https://github.com/rootnoo
 | pre     | net-protocol support via glider | TBC    |
 | alpha   | bash-app                        | TBC    |
 | beta    | barebones-gui                   | TBC    |
+| 0       | simple-gui                      | TBC    |
 | FITF    | net-protocol support via APIs   | TBC    |
 | FITF    | plugins-API                     | TBC    |
 | EFITF   | OS-layer-API                    | TBC    |
