@@ -4,4 +4,4 @@ WiP
 |---------|---------------|
 | base    | core-protocol |
 | FITF    | plugins-API   |
-| EVFITF  | OS-layer-API  |
+| EFITF  | OS-layer-API  |
