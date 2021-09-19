@@ -5,4 +5,7 @@ To understand properly what flexi-chains is, and how it works, please read: [A G
 
 To see where the project is at, please skim-over the [gen0 design abstract](gen0-design-abstract.md)
 
+You may be interested to read:  
+[Why is flex-chains needed](flexi-chains-purpose.md) & [Who is it for](who-uses-flexi-chains.md)
+
 *(Work in Progress)
