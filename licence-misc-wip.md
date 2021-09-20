@@ -1,12 +1,21 @@
-Dear 3bees;
+The MIT License (MIT)
 
-I will let you use this, but you have to help me. If you do not help me, then 3bees are forbidden from using ANY of this source. We are watching you.  
+Copyright (c) 2015-2021 V2Fly Community
 
-For those who don't invade other people's privacy:
-Feel free to do what you want*
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-*do please read legal disclaimer first.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-ALso, do please read any other licence conditions of shared code.
-
-ttfn.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
