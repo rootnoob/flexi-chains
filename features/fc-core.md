@@ -50,5 +50,5 @@ ROTATE(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 <details>
 <summary>Config File(s)</summary>
 
-glider* config file format #*(gen0)
+V config file format 
 </details>
