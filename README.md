@@ -12,3 +12,5 @@ You may be interested to read:
 *(Work in Progress)
 
 [VERY IMPORTANT LEGAL DISCLAIMER](very-important-legal-disclaimer.md)
+
+[spoilers](https://github.com/rootnoob/flexi-chains/blob/main/design-process.md) (an insight into the design process)
