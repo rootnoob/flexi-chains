@@ -1,14 +1,15 @@
 Base command:  
 f-chains  
 
+**add-chain** $name
 
-**add-link** $number  
+**add-link** $chain $number  
 Adds link number $number in the chain.  
 
-**set-link** $number $guard/tunnel  
+**set-link** $chain $number $guard/tunnel  
 Sets link to guard or tunnel.  
 
-**edit-link** $number 
+**edit-link** $chain $number 
     add-config  $file                                           #adds config file with $number sum+1  
     set-config-protocol $number $protocol                       #sets config protocol for config number $number      
     rm-config $number                                           #removes config number $number  
@@ -16,7 +17,7 @@ Sets link to guard or tunnel.
     firewall                                                    #opens firewall conig file in nano  
     set-config-vm $number                                       #sets VM for config number $number  
     
-**reboot-link** $number  
+**reboot-link** $chain $number  
 #reboots link number $number  
 
 
