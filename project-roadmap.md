@@ -11,7 +11,7 @@ WiP - Pending finalisation of [Architecture Abstract](https://github.com/rootnoo
 | pre     | fc-core-guard-API-iptables          | TBC    |
 | alpha   | bash-app                            | TBC    |
 | beta    | barebones-gui                       | TBC    |
-| 0       | simple-gui                          | TBC    |
+| V0      | simple-gui                          | TBC    |
 | FITF    | replace glider with individual APIs | TBC    |
 | FITF    | fc-core-user*                       | TBC    |
 | FITF    | fc-core-user-pluginAPI*             | TBC    |
