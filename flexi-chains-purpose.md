@@ -24,3 +24,6 @@ Just using Nym has the same foundational issues that TOR does.
 I still want there to be an open-source Not Uniquely Identifiable network for everyone to use. 
 However, to have a truly NUI network (refering solely to the network layer), you NEED the option for private and anonymised, (via steganography), nodes.  
 In short, a truly NUI-network client would be somewhat-like a really advanced proxychains. In this sense, you can think of flexi-chains as a gateway to NUI-net - it is just a really very advanced proxy-chains.
+
+EDIT:  
+Credit to glider & v2ray (thanks plexus for the reccomendation). Flexi-chains will be built upon one of these projects (unless I discovery a better candidate).  
