@@ -14,3 +14,7 @@ You may be interested to read:
 [VERY IMPORTANT LEGAL DISCLAIMER](very-important-legal-disclaimer.md)
 
 [spoilers](https://github.com/rootnoob/flexi-chains/blob/main/design-process.md) (an insight into the design process)
+
+--
+[Contributions appreciated](https://forum.qubes-os.org/u/quser59/) - get in touch.
+--
