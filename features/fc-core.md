@@ -30,6 +30,7 @@ firewall/ids/ips/etc config file format
 <h2>Tunnels</h2>
 
 Master (admin-client)  
+<details>
 <summary>Slave (tunnelVM-client) </summary>
 
 flexi-chains can work with any VM type/OS (including unikernels): provided there is a compatible tunnelVM-client client for said VM type/OS.
