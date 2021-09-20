@@ -1,26 +1,62 @@
 <h2>V.long feature list</h2>
 
-**fc-core-protocol**  
-Why: needed to function  
+<details>
+ <summary>Pre</summary>
+ 
+**fc-core***  
+Why: needed to function
+ 
+**fc-core-adminClient**  
+Why: fat-controller
 
-**net-protocol support via glider**  
+**fc-core-tunnelVM-tunnelAPI-glider**  
 Why: needed to have multi-protocol support (without months of work)
 
+</details>
+ 
+<details>
+ <summary>Alpha</summary>
+
 **Bash-app**  
-Why:  easy configurability via terminal.  
+Why:  easy configurability via terminal. 
+
+</details>
+
+<details>
+ <summary>Beta</summary>
 
 **barebones-gui**  
-Why:  get users on-board for beta  
+Why:  get users on-board for beta   
+
+</details>
+  
+<details>
+ <summary>V0</summary>
 
 **simple-gui**  
 Why:  easy-to-use for v0
 
-**net-protocol support via APIs**  
+</details>
+
+<details>
+ <summary>FITF</summary>
+ 
+ **net-protocol support via APIs**  
 Why: improve speed, stability and remove dependency on external projects with restrictive licences
 
 **plugins-API**  
-Why: this is a pivotal step to something approaching true anonymity. (e.g: super cool browser plugins :P)  
+Why: this is a pivotal step to something approaching true anonymity. (e.g: super cool browser plugins :P)
 
-**OS-layer-API**  
+
+</details>
+
+
+<details>
+ <summary>EFITF</summary>
+
+ **OS-layer-API**  
 Why: so we can rinse the $ from SecureView (jks, it's so to reduce dependency on a single 'OS-layer' - but this is EFITF rc).
+
+
+</details>
  
