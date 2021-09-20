@@ -4,11 +4,10 @@ Guards | Tunnels
 
 <h2>Guards</h2>
 
-guardVM  
-firewall Settings  
+'mode'
+Config Files
 
 <h2>Tunnels</h2>
 
 'mode'  
-Configuration(s)  
-
+Config Files
