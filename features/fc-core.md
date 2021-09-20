@@ -8,7 +8,7 @@ Guards | Tunnels
 <summary>'mode'</summary>
 
 STATIC  
-REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)
+REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)  
 ROTATE(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 
 </details>
@@ -20,7 +20,7 @@ Config Files
 <summary>'mode'</summary>
 
 STATIC  
-REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)
+REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)  
 ROTATE(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 
 </details>
