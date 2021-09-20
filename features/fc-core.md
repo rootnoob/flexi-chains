@@ -12,7 +12,7 @@ REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 ROTATE(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 
 </details>
-Config Files
+Config File(s)
 
 <h2>Tunnels</h2>
 
@@ -24,4 +24,4 @@ REBOOT(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 ROTATE(0,TT,X,Y)  #(algorithm,timeunits,from,until)
 
 </details>
-Config Files
+Config File(s)
