@@ -8,9 +8,18 @@ Why: needed to function
  
 **fc-core-adminClient**  
 Why: fat-controller
+ 
+**fc-core-guardVM-client-qubes-linux**  
+Why: dependant on qubes, need functioning firewall features for guardVM to exist  
+ 
+**fc-core-tunnelVM-client-qubes-linux**  
+Why: dependant on qubes, need functioning tunnel features for tunnelVM to exist
 
 **fc-core-tunnelVM-tunnelAPI-glider**  
-Why: needed to have multi-protocol support (without months of work)
+Why: needed to have multi-protocol support (without months of work)  
+ 
+**fc-core-guardVM-guardAPI-iptables**  
+Why: need to have firewall support (without months of work)  
 
 </details>
  
