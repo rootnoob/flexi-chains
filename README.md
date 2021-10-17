@@ -2,7 +2,9 @@
 <h1>EDIT: Important Update^^</h1>
 
 ^^  
-Flexi-chains is set to be adopted by some awesome people, (new company incoming), better suited to develop it than I am - will update as we launch (stay tuned).   
+Flexi-chains is set to be adopted by some awesome people, (new company incoming), better suited to develop it than I am - will update as we launch (stay tuned).
+
+**If you are interested in contributing/joining-the-team please contact me**.
 
 **Flexi Chains** is a* **multi-protocol tunnel-chaining**, configurable, easy-to-use, **application for [QubesOS](https://qubes-os.org)**.  
 
