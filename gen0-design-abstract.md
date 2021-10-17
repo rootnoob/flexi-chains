@@ -25,7 +25,7 @@ A chain can be as few or as many guards and/or tunnels you wish.
 <h2>How does it work (example)?</h2>  
 
 E.G:  
-**fc create-chain** everest 
+**fc create-chain** everest   
 #Creates a new chain - called 'everest'   
 **fc add-link** everest 1   
 #Adds link 1 to the chain 'everest'    
