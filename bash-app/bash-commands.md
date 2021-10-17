@@ -9,7 +9,7 @@ Adds link number $number in the chain.
 **set-link** $chain $number $guard/tunnel  
 Sets link to guard or tunnel.  
 
-**edit-link** $chain $number 
+**edit-link** $chain $number  
     add-config  $file                                           #adds config file with $number sum+1  
     set-config-protocol $number $protocol                       #sets config protocol for config number $number      
     rm-config $number                                           #removes config number $number  
