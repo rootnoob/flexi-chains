@@ -24,26 +24,30 @@ A link is either a **guard** or a **tunnel**.
 
 A **guard** could be an IPS,IDS, firewall.             
 A **tunnel** could be openvpn, wireguard, socks proxy, etc.  
-  bbbbbbbbbbbbb
 Although a chain is a sequence of links, a link could be part of many chains.  
 For instance: I have a Guard Link which blocks all non-https traffic. I have multiple chains which use this guard link as the first link in the chain.  
 
 <h2>How does it work (example)?</h2>  
 
 E.G:  
-**fc link -create [link-name] [guard/tunnel] [protocol] [template]**  
+**fc link -create [$link-name] [type{}] [protocol{}] [$template]**  
+#Type{} is either guard or tunnel.
+#Protocol{} is one of the compatible protocols, for guard/tunnel respectively.
 #Creates a link. The parameter protocol has different valid options depending on whether the link is guard or tunnel.
 #For now, template
 
-**fc link -delete [link-name]**
+**fc link -delete [$link-name]**
 
-**fc chain -create [chain-name]**
+**fc link -edit [$link-name] [protocol{}] [$template]** 
 
-**fc chain -set-link [chain-name] [link-number] [link-name]**       
+**fc chain -create [$chain-name]**  
 
-**fc link -edit [link-name] [protocol] [template]** 
+**fc chain -delete [$chain-name]**  
 
-**fc chain -** everest 1 set-mode session -mins -10 -20    
+**fc chain -set-link [$chain-name] [$link-number] [$link-name]**       
+
+**fc chain -edit-link [$chain-name] [$link-number] [mode{}]**  
+#mode{} is 
 #Sets link 1 in the chain, (our iptables firewall configured Guard), to reboot every 10-20 mins    
 
 **fc edit-link** everest 1 set-config-vm 1 debminimal-disp    
