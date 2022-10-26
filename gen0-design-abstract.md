@@ -19,24 +19,33 @@ Think of the abstraction simply, like this:
 Flexi-Chains is really just an interface for configuring 'flexible' 'chains.  
 
 What is a **chain**?    
-A chain is formed of **link(s)** - **guard(s)** and **tunnel(s)**.  
-A chain can be as few or as many guards and/or tunnels you wish.  
+A chain is formed of **link(s)**.  
+A link is either a **guard** or a **tunnel**.  
+
+A **guard** could be an IPS,IDS, firewall.             
+A **tunnel** could be openvpn, wireguard, socks proxy, etc.  
+  bbbbbbbbbbbbb
+Although a chain is a sequence of links, a link could be part of many chains.  
+For instance: I have a Guard Link which blocks all non-https traffic. I have multiple chains which use this guard link as the first link in the chain.  
 
 <h2>How does it work (example)?</h2>  
 
 E.G:  
-**fc create-chain** everest   
-#Creates a new chain - called 'everest'   
-**fc add-link** everest 1   
-#Adds link 1 to the chain 'everest'    
-**fc set-link** everest 1 guard  
-#Sets link 1 in the chain 'everest' to a Guard link   
-**fc edit-link** everest 1 add-config /home/user/firewallfirst.conf  
-#Adds the config 'firewallfirst.conf' (numbered SUM(config,everest.1)) to everest link 1 (Guard)   
-**fc edit-link** everest 1 set-config-protocol 1 iptables    
-#Sets the 'protocol' of the config we just added to 'iptables'    
-**fc edit-link** everest 1 set-mode session -mins -10 -20    
+**fc link -create [link-name] [guard/tunnel] [protocol] [template]**  
+#Creates a link. The parameter protocol has different valid options depending on whether the link is guard or tunnel.
+#For now, template
+
+**fc link -delete [link-name]**
+
+**fc chain -create [chain-name]**
+
+**fc chain -set-link [chain-name] [link-number] [link-name]**       
+
+**fc link -edit [link-name] [protocol] [template]** 
+
+**fc chain -** everest 1 set-mode session -mins -10 -20    
 #Sets link 1 in the chain, (our iptables firewall configured Guard), to reboot every 10-20 mins    
+
 **fc edit-link** everest 1 set-config-vm 1 debminimal-disp    
 #Flexi-chains will boot the debminimal-disp VM when config file 1 is chosen for link 1 in the everest chain 
 
