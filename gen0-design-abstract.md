@@ -50,17 +50,10 @@ E.G:
 **fc chain -delete [$chain-name]**  
 
 **fc chain -set-link [$chain-name] [$link-number] [type{guard,tunnel}] [$link-mode]**       
-#Link mode is either 
+#$link-mode is either STATIC, session(min-time,max-time) or 
 
 
-
-#mode{} is 
-#Sets link 1 in the chain, (our iptables firewall configured Guard), to reboot every 10-20 mins    
-
-**fc edit-link** everest 1 set-config-vm 1 debminimal-disp    
-#Flexi-chains will boot the debminimal-disp VM when config file 1 is chosen for link 1 in the everest chain 
-
-**fc start-chain** everest  
+**fc chain launch [chain-name]**  
 #As configured above, this will launch all the link(s) configured (only 1), selecting the config (only the iptables firewallfirst.conf is added, so it will select that) - and launching the configured VM (debminimal-disp) for the selected config for the link(s). As we set the mode to session,mins,10,20 for this link (the only one), this link will reboot every 10-20 minutes (in effect the whole chain is rebooting as there's only 1 link in the chain).
 
 
