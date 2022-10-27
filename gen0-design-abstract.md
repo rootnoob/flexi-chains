@@ -39,20 +39,18 @@ SessionRandom(mintime,maxtime)
 <h2>How does it work (example)?</h2>  
 
 E.G:  
-**fc guard create [$guard-name] [protocol{}] [$template]**  
-#Protocol{} is one of the compatible protocols, for guard/tunnel respectively.
-#Creates a link. The parameter protocol has different valid options depending on whether the link is guard or tunnel.
-#For now, template
+**fc guard create [$guard-name] [guard-protocol] [$vm]**  
+#This creates a guard. A directory is create titled guard-name and then flexi-chains does magic assigning the specific protocol and template, so all that is needed in the guard directory is to place a valid protocol configuration file, (i.e. net-tables), and the config file destination in the vm.  
 
 **fc guard delete [$guard-name]**  
 
-**fc guard edit [$guard-name] [protocol{}] [$template]**
+**fc guard edit [$guard-name] [protocol{}] [$vm]**
 
-**fc tunnel create [$tunnel-name] [protocol{}] [$template]**  
+**fc tunnel create [$tunnel-name] [protocol{}] [$vm]**  
 
 **fc tunnel delete [$tunnel-name]**  
 
-**fc tunnel edit [$tunnel-name] [protocol{}] [$template]**
+**fc tunnel edit [$tunnel-name] [protocol{}] [$vm]**
 
 **fc chain -create [$chain-name]**  
 
