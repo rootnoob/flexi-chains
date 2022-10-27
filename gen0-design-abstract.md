@@ -27,6 +27,15 @@ A **tunnel** could be openvpn, wireguard, socks proxy, etc.
 Although a chain is a sequence of links, a link could be part of many chains.  
 For instance: I have a Guard Link which blocks all non-https traffic. I have multiple chains which use this guard link as the first link in the chain.  
 
+Chains are flexible. Every link, sequentially numbered from 1, can be assigned a different mode. The modes are:  
+Static  
+SessionStatic(mintime,maxtime)  
+#reboot the assigned guard/tunnel every random(mintime,maxtime) mins, if maxtime is not set then the session will be changed every mintime mins. This only works if the guards/tunnels assigned are not in use by any other chain.  
+SessionRotate(mintime,maxtime)  
+#change the link guard/tunnel every random(mintime,maxtime) mins, in the sequential order of the guards/tunnels attached to the link. If the guard/tunnel is in use by another chain at the end of the session, it won't be shutdown, otherwise it will be shutdown.  
+SessionRandom(mintime,maxtime)  
+#same as SessionRotate, except the next guard/tunnel is selected randomly from the list attached to the link. 
+
 <h2>How does it work (example)?</h2>  
 
 E.G:  
