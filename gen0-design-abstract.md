@@ -57,6 +57,4 @@ E.G:
 
 
 **fc chain launch [chain-name]**  
-#As configured above, this will launch all the link(s) configured (only 1), selecting the config (only the iptables firewallfirst.conf is added, so it will select that) - and launching the configured VM (debminimal-disp) for the selected config for the link(s). As we set the mode to session,mins,10,20 for this link (the only one), this link will reboot every 10-20 minutes (in effect the whole chain is rebooting as there's only 1 link in the chain).
-
-
+#for all links in chain, if(!=isChainActive()): start link; for all links except link(1) in chain, set netvm to link(link-1)
