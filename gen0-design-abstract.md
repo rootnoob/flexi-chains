@@ -51,7 +51,7 @@ E.G:
 
 **fc chain -set-link [$chain-name] [$link-number] [type{guard,tunnel}] [$link-mode]**       
 #link-mode: STATIC, SessionSTATIC(min-time,max-time), sessionRotate(min-time,max-time), sessionRandom(min-time,max-time).  
-#SessionRotate and SessionRandom allow multiple tunnels/guards to be assigned to a tunnel/guard link in a chain, and with rotate, the link will be replaced between min-time,max-time,with the next tunnel in the priority. For random, it is the same than rotate, other than you may have 50 configs and instead of being selected sequentially as with rotate, random just chooses any random one. HENCE THE NAME, FLEXI-CHAINS. Note: if the guard/tunnel link is being used by another chain when using sessionRandom/SessionRotate the link will not be shutdown (as this would affect the other chain) upon session-link-change.
+#SessionRotate and SessionRandom allow multiple tunnels/guards to be assigned to a tunnel/guard link in a chain, and with rotate, the link will be replaced between min-time,max-time,with the next tunnel in the priority. For random, it is the same than rotate, other than you may have 50 configs and instead of being selected sequentially as with rotate, random just chooses any random one. HENCE THE NAME, FLEXI-CHAINS. Note: if the guard/tunnel is being used by another chain when using sessionRandom/SessionRotate the guard/tunnel will not be shutdown (as this would affect the other chain) upon session end.
 
 
 
