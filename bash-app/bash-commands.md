@@ -1,5 +1,4 @@
-Base command:  
-fc guard
+**Base command:**: fc guard
 
 create [$guard-name] [guard-protocol] [$vm]
 #This creates a guard. A directory is create titled guard-name and then flexi-chains does magic assigning the specific protocol and template, so all that is needed in the guard directory is to place a valid protocol configuration file, (i.e. net-tables), and the config file destination in the vm.
@@ -9,8 +8,7 @@ delete [$guard-name]
 edit [$guard-name] [protocol{}] [$vm]
 
 
-**Base command**
-fc tunnel 
+**Base command**: fc tunnel 
 
 create [$tunnel-name] [protocol{}] [$vm]
 
@@ -18,8 +16,7 @@ delete [$tunnel-name]
 
 edit [$tunnel-name] [protocol{}] [$vm]
 
-**Base command**
-fc chain 
+**Base command**: fc chain 
 
 create [$chain-name]
 
